@@ -1,0 +1,25 @@
+.task-container{
+    height: 60px;
+    width: 80vw;
+    border:2px solid rgb(30, 91, 233);
+    border-left: 5px solid rgb(37, 86, 194);
+    border-right: 5px solid rgb(37, 86, 194);
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+}
+.event-text{
+    font-weight: bold;
+    color: rgb(21, 14, 234);
+    font-size: 20px;
+}

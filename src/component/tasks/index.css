@@ -1,0 +1,43 @@
+.tasks-container{
+    width: 100vw; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-3{
+    width: 80vw;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.taskAdd-btn{
+    padding:15px 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(61, 233, 49, 0.653);
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.466);
+}
+
+.input-element{
+    background: none;
+    outline: none;
+    border: 2px solid rgb(47, 0, 255);
+    border-radius: 4px;
+    padding:10px 20px;
+    font-size: 16px;
+}
+
+.array{
+    display:flex ;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 80vw; 
+    
+}

@@ -1,0 +1,66 @@
+.remainder-container{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.input-container{
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.input-field{
+    height: 50px;
+    width: 30%;
+    background-color: none;
+    outline: none;
+}
+
+.date{
+  height: 30px;
+  width: 140px;
+}
+
+.notify-btn {
+    background-color: #ffffff00;
+    color: #1c1b1b;
+    width: 140px;
+    height: 50px;
+    border: #3654ff 0.2em solid;
+    border-radius: 11px;
+    text-align: right;
+    transition: all 0.6s ease;
+  }
+  
+  .notify-btn:hover {
+    background-color: #3654ff;
+    cursor: pointer;
+  }
+  
+  .notify-btn svg {
+    width: 1.6em;
+    margin: -0.2em 0.8em 1em;
+    position: absolute;
+    display: flex;
+    transition: all 0.6s ease;
+  }
+  
+  .notify-btn:hover svg {
+    transform: translateX(5px);
+  }
+  
+  .text {
+    margin: 0 1.5em
+  }
+  
+  .Alerts-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
